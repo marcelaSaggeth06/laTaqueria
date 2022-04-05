@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Lobster&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body{
+    margin: 0;
+    
+    background-image:url(img/fondo.jpeg);
+    
+
+}
+*{
+    box-sizing: border-box;
+}
+#cajacabecera{ 
+    width: 100%;
+    background:black;
+    opacity: 0.4;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+#logo{
+    width: 10%;
+    padding: 4px;
+    margin-right: 110; 
+
+   
+}
+#btn-menu {
+    color: white;
+    display: none;
+}
+#mmovil{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    text-align: right;
+} 
+.menu{
+    width:100%;
+}
+.menu ul li{
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding:0 20;
+}
+
+ 
+
+
+
